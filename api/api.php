@@ -1,2 +1,0 @@
-<?php
-return "Prueba exitosa";
