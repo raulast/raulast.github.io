@@ -1,0 +1,24 @@
+{
+  "name": "raulast.github.io",
+  "version": "1.0.0",
+  "description": "Portafolio y pagina de contacto de Raul Salazar",
+  "main": "index.js",
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.34",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.0.12"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "desarrollador",
+    "fullStack",
+    "soluciones web"
+  ],
+  "author": "Raul Salazar",
+  "license": "ISC"
+}
