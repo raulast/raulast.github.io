@@ -1,24 +1,23 @@
 {
   "name": "raulast.github.io",
-  "version": "1.0.0",
-  "description": "Portafolio y pagina de contacto de Raul Salazar",
-  "main": "index.js",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "prepare":"rm -rf docs && cp -rf .output/public docs/"
+  },
+  "dependencies": {
+    "nuxt": "^3.10.1",
+    "vue": "^3.4.15",
+    "vue-router": "^4.2.5"
+  },
   "devDependencies": {
     "autoprefixer": "^10.4.17",
     "postcss": "^8.4.34",
-    "tailwindcss": "^3.4.1",
-    "vite": "^5.0.12"
-  },
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "keywords": [
-    "desarrollador",
-    "fullStack",
-    "soluciones web"
-  ],
-  "author": "Raul Salazar",
-  "license": "ISC"
+    "tailwindcss": "^3.4.1"
+  }
 }
