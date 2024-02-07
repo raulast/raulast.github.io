@@ -8,7 +8,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "prepare":"rm -rf docs && cp -rf .output/public docs/"
+    "gpprepare":"rm -rf docs && cp -rf .output/public docs/"
   },
   "dependencies": {
     "nuxt": "^3.10.1",
