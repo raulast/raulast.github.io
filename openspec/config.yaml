@@ -1,0 +1,38 @@
+project: raulast.github.io
+description: Personal developer portfolio — bilingual (ES/EN) static site on GitHub Pages
+stack:
+  runtime: bun
+  framework: react@19 + typescript
+  bundler: vite
+  routing: react-router-dom@7
+  styling: tailwindcss@4
+  i18n: react-i18next + i18next-browser-languagedetector
+  seo: react-helmet-async
+  deploy: github-pages (docs/ folder)
+
+strict_tdd: false
+test_command: ~
+
+testing:
+  runner: none
+  strict_tdd: false
+  unit: false
+  integration: false
+  e2e: false
+  coverage: false
+  type_checker: "bun tsc --noEmit"
+
+sdd:
+  execution_mode: auto
+  artifact_store: hybrid
+  delivery_strategy: auto-chain
+  chain_strategy: stacked-to-main
+
+phase_rules:
+  proposal: required
+  spec: required
+  design: required
+  tasks: required
+  apply: required
+  verify: type-check only (no test runner)
+  archive: required

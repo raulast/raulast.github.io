@@ -1,0 +1,83 @@
+{
+  "nav": {
+    "about": "Sobre mí",
+    "stack": "Stack",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "copyright": "© {{year}} Raúl Salazar"
+  },
+  "meta": {
+    "title": "Raúl Salazar — Senior Full Stack Engineer & Tech Lead",
+    "description": "Senior Full Stack Engineer & Tech Lead con más de 6 años construyendo plataformas SaaS, integraciones de IA y sistemas de alta disponibilidad. Laravel, Node.js, React, AWS Bedrock, Docker.",
+    "ogLocale": "es_CO"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "name": "Raúl Salazar",
+    "title": "Senior Full Stack Engineer & Tech Lead",
+    "subtitle": "Construyo plataformas SaaS que escalan — desde IA conversacional hasta analítica multi-tenant. Más de 6 años convirtiendo problemas complejos en software limpio y funcional.",
+    "ctaWork": "Ver mi trabajo",
+    "ctaContact": "Hablemos"
+  },
+  "about": {
+    "heading": "Sobre mí",
+    "bio": "Soy Senior Full Stack Engineer & Tech Lead con base en Barranquilla, Colombia. Me especializo en arquitectura SaaS, integración de LLMs y sistemas de alta disponibilidad. Lideré desarrollo end-to-end — desde MVP hasta versión enterprise — automatizando más de $2M en procesos y atendiendo a más de 200 usuarios activos. Mi background abarca IoT embebido, sistemas backend, DevOps e IA aplicada, lo que me da una perspectiva amplia al diseñar soluciones.",
+    "highlights": [
+      {
+        "icon": "🏆",
+        "label": "6+ años de experiencia",
+        "detail": "Full stack, DevOps & IA"
+      },
+      {
+        "icon": "🎓",
+        "label": "Ingeniero Cum Laude",
+        "detail": "Universidad del Norte, 2020"
+      },
+      {
+        "icon": "🤖",
+        "label": "Builder AI-Native",
+        "detail": "LLMs, SaaS & sistemas IoT"
+      }
+    ]
+  },
+  "stack": {
+    "heading": "Stack tecnológico",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "ai": "IA / LLM",
+      "devops": "DevOps",
+      "telecom": "Telecom / IoT",
+      "db": "Bases de datos"
+    }
+  },
+  "projects": {
+    "heading": "Proyectos",
+    "items": [
+      {
+        "name": "Motor SaaS Conversacional",
+        "description": "Lideré el desarrollo end-to-end de un motor SaaS visual para automatización de flujos conversacionales omnicanal (WhatsApp, SIP, Web). Orquesté un equipo de 2 ingenieros bajo Scrum. Integré LLMs para reducir la intervención humana en un 40%.",
+        "metric": "$2M+ automatizados · 200+ usuarios · 40% reducción operativa",
+        "tags": ["Laravel", "Node.js", "React", "WhatsApp API", "AWS Bedrock", "Asterisk PBX"]
+      },
+      {
+        "name": "Plataforma Multi-Tenant Analytics",
+        "description": "Diseñé la arquitectura multi-tenant con dashboards empresariales en tiempo real y cero contaminación de datos entre empresas. Implementé integraciones nativas con WhatsApp Business API con matriz de mensajes basada en roles.",
+        "metric": "15+ empresas · 50K+ mensajes/mes · 99.7% uptime",
+        "tags": ["Node.js", "React", "MySQL", "Docker", "WebSockets", "n8n"]
+      },
+      {
+        "name": "Monitoreo IoT Cadena de Frío",
+        "description": "Diseñé la propuesta técnica y el blueprint arquitectónico para un sistema SoC basado en ESP32-C3 para monitoreo remoto de cadenas de frío en logística farmacéutica. Definí alertas en tiempo real y el alcance que resultó en cero mermas IT.",
+        "metric": "0 mermas IT · ESP32-C3 · Industria farmacéutica",
+        "tags": ["ESP32-C3", "SoC Embebido", "Telemetría IoT", "Cloud"]
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Trabajemos juntos",
+    "subheading": "Abierto a posiciones full-time y proyectos freelance. Si estás construyendo un producto SaaS, integrando IA o necesitás un tech lead, me encantaría escucharte.",
+    "emailLabel": "Escribime un correo",
+    "linkedinLabel": "Conectar en LinkedIn"
+  }
+}

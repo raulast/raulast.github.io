@@ -1,0 +1,83 @@
+{
+  "nav": {
+    "about": "About",
+    "stack": "Stack",
+    "projects": "Projects",
+    "contact": "Contact",
+    "copyright": "© {{year}} Raúl Salazar"
+  },
+  "meta": {
+    "title": "Raúl Salazar — Senior Full Stack Engineer & Tech Lead",
+    "description": "Senior Full Stack Engineer & Tech Lead with 6+ years building SaaS platforms, AI integrations, and high-availability systems. Laravel, Node.js, React, AWS Bedrock, Docker.",
+    "ogLocale": "en_US"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Raúl Salazar",
+    "title": "Senior Full Stack Engineer & Tech Lead",
+    "subtitle": "I build SaaS platforms that scale — from conversational AI to multi-tenant analytics. 6+ years turning complex problems into clean, working software.",
+    "ctaWork": "View My Work",
+    "ctaContact": "Let's Talk"
+  },
+  "about": {
+    "heading": "About Me",
+    "bio": "I'm a Senior Full Stack Engineer & Tech Lead based in Barranquilla, Colombia. I specialize in SaaS architecture, LLM integrations, and high-availability systems. I've led end-to-end development — from MVP to enterprise — automating $2M+ in processes and serving 200+ active users. My background spans embedded IoT, backend systems, DevOps, and applied AI, which gives me an unusually wide lens when designing solutions.",
+    "highlights": [
+      {
+        "icon": "🏆",
+        "label": "6+ Years Experience",
+        "detail": "Full stack, DevOps & AI"
+      },
+      {
+        "icon": "🎓",
+        "label": "Cum Laude Engineer",
+        "detail": "Universidad del Norte, 2020"
+      },
+      {
+        "icon": "🤖",
+        "label": "AI-Native Builder",
+        "detail": "LLMs, SaaS & IoT systems"
+      }
+    ]
+  },
+  "stack": {
+    "heading": "Tech Stack",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "ai": "AI / LLM",
+      "devops": "DevOps",
+      "telecom": "Telecom / IoT",
+      "db": "Databases"
+    }
+  },
+  "projects": {
+    "heading": "Projects",
+    "items": [
+      {
+        "name": "Conversational SaaS Engine",
+        "description": "Led end-to-end development of a visual SaaS engine for omnichannel conversational flow automation (WhatsApp, SIP, Web). Orchestrated a 2-engineer team under Scrum. Integrated LLMs to reduce human intervention by 40%.",
+        "metric": "$2M+ automated · 200+ users · 40% ops reduction",
+        "tags": ["Laravel", "Node.js", "React", "WhatsApp API", "AWS Bedrock", "Asterisk PBX"]
+      },
+      {
+        "name": "Multi-Tenant Analytics Platform",
+        "description": "Designed the core multi-tenant architecture with real-time enterprise dashboards and zero data cross-contamination between companies. Implemented native WhatsApp Business API integrations with role-based message matrix.",
+        "metric": "15+ companies · 50K+ msgs/month · 99.7% uptime",
+        "tags": ["Node.js", "React", "MySQL", "Docker", "WebSockets", "n8n"]
+      },
+      {
+        "name": "IoT Cold Chain Monitoring",
+        "description": "Designed the technical proposal and architectural blueprint for an SoC system based on ESP32-C3 for remote cold chain monitoring in pharmaceutical logistics. Defined real-time alerts and scope resulting in zero IT losses.",
+        "metric": "0 IT losses · ESP32-C3 · Pharmaceutical grade",
+        "tags": ["ESP32-C3", "Embedded SoC", "IoT Telemetry", "Cloud"]
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Let's Work Together",
+    "subheading": "Open to full-time roles and freelance projects. Whether you're building a SaaS product, integrating AI, or need a tech lead — I'd love to hear about it.",
+    "emailLabel": "Send me an email",
+    "linkedinLabel": "Connect on LinkedIn"
+  }
+}
