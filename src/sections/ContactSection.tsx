@@ -82,6 +82,24 @@ export default function ContactSection() {
         >
           {t('contact.linkedinLabel')}
         </a>
+
+        <a
+          href="https://wa.me/573026323143"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            display: 'inline-block',
+            padding: '14px 32px',
+            borderRadius: '6px',
+            fontWeight: 600,
+            fontSize: '15px',
+            textDecoration: 'none',
+            background: '#25D366',
+            color: '#ffffff',
+          }}
+        >
+          {t('contact.whatsappLabel')}
+        </a>
       </div>
     </section>
   )

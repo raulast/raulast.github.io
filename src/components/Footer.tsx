@@ -72,6 +72,26 @@ export default function Footer() {
           >
             LinkedIn ↗
           </a>
+          <a
+            href="https://wa.me/573026323143"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              fontSize: '13px',
+              fontFamily: 'var(--font-sans)',
+              color: '#25D366',
+              textDecoration: 'none',
+              transition: 'opacity 0.2s',
+            }}
+            onMouseEnter={(e) => {
+              ;(e.target as HTMLAnchorElement).style.opacity = '0.75'
+            }}
+            onMouseLeave={(e) => {
+              ;(e.target as HTMLAnchorElement).style.opacity = '1'
+            }}
+          >
+            WhatsApp ↗
+          </a>
         </div>
       </div>
     </footer>

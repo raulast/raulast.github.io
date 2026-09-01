@@ -1,0 +1,1570 @@
+{
+  "version": "2.17",
+  "children": [
+    {
+      "type": "frame",
+      "id": "VennI",
+      "x": 0,
+      "y": 0,
+      "name": "StackBadge",
+      "reusable": true,
+      "fill": "$color-tag-bg",
+      "cornerRadius": "$radius-sm",
+      "padding": [
+        8,
+        14
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "ut0Fo",
+          "name": "Badge Label",
+          "fill": "$color-text-muted",
+          "content": "React.js",
+          "fontFamily": "$font-mono",
+          "fontSize": 12,
+          "fontWeight": "normal"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "l6IXjl",
+      "x": 112,
+      "y": 0,
+      "name": "ProjectCard",
+      "reusable": true,
+      "width": 380,
+      "fill": "$color-surface",
+      "cornerRadius": "$radius-md",
+      "layout": "vertical",
+      "gap": 16,
+      "padding": 28,
+      "children": [
+        {
+          "type": "frame",
+          "id": "FzJq9",
+          "name": "Card Header",
+          "width": "fill_container",
+          "gap": 8,
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "c83M6",
+              "name": "Project Title",
+              "fill": "$color-text",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Conversational SaaS Engine",
+              "fontFamily": "$font-sans",
+              "fontSize": 18,
+              "fontWeight": "600"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "w9qxGT",
+          "name": "Project Description",
+          "fill": "$color-text-muted",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Led end-to-end development of a visual SaaS engine for omnichannel conversational flow automation.",
+          "lineHeight": 0.4,
+          "fontFamily": "$font-sans",
+          "fontSize": 14,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "F5TwqW",
+          "name": "Metric Badge",
+          "fill": "#e9456015",
+          "cornerRadius": "$radius-sm",
+          "padding": [
+            6,
+            12
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "U4B8h",
+              "name": "Metric Text",
+              "fill": "$color-accent-red",
+              "content": "$2M+ automated · 200+ users · 40% ops reduction",
+              "fontFamily": "$font-mono",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Ntjk1",
+          "name": "Tags Row",
+          "width": "fill_container",
+          "gap": 8,
+          "children": [
+            {
+              "id": "B5CLJ",
+              "type": "ref",
+              "ref": "VennI",
+              "name": "Laravel",
+              "descendants": {
+                "ut0Fo": {
+                  "content": "Laravel"
+                }
+              }
+            },
+            {
+              "id": "h1k9H",
+              "type": "ref",
+              "ref": "VennI",
+              "name": "Node.js",
+              "descendants": {
+                "ut0Fo": {
+                  "content": "Node.js"
+                }
+              }
+            },
+            {
+              "id": "tGE0U",
+              "type": "ref",
+              "ref": "VennI",
+              "name": "AWS Bedrock",
+              "descendants": {
+                "ut0Fo": {
+                  "content": "AWS Bedrock"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "msud1",
+      "x": 532,
+      "y": 0,
+      "name": "Nav",
+      "reusable": true,
+      "width": 1280,
+      "height": 64,
+      "fill": "$color-bg",
+      "padding": [
+        0,
+        48
+      ],
+      "justifyContent": "space_between",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "NT7QA",
+          "name": "Nav Logo",
+          "fill": "$color-text",
+          "content": "Raúl Salazar",
+          "fontFamily": "$font-sans",
+          "fontSize": 18,
+          "fontWeight": "700"
+        },
+        {
+          "type": "frame",
+          "id": "U2li1L",
+          "name": "Nav Links",
+          "gap": 32,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "xJG5T",
+              "name": "About",
+              "fill": "$color-text-muted",
+              "content": "About",
+              "fontFamily": "$font-sans",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "oSIvW",
+              "name": "Stack",
+              "fill": "$color-text-muted",
+              "content": "Stack",
+              "fontFamily": "$font-sans",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "Yq7Tk",
+              "name": "Projects",
+              "fill": "$color-text-muted",
+              "content": "Projects",
+              "fontFamily": "$font-sans",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "wX1T8",
+              "name": "Contact",
+              "fill": "$color-text-muted",
+              "content": "Contact",
+              "fontFamily": "$font-sans",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "zKNFR",
+          "name": "Language Switcher",
+          "fill": "$color-surface",
+          "cornerRadius": "$radius-sm",
+          "gap": 4,
+          "padding": [
+            6,
+            12
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "l5PHU",
+              "name": "Lang ES",
+              "fill": "$color-accent-red",
+              "content": "ES",
+              "fontFamily": "$font-sans",
+              "fontSize": 13,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "YZQYi",
+              "name": "Lang Divider",
+              "fill": "$color-border",
+              "content": "/",
+              "fontFamily": "$font-sans",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "uEBjj",
+              "name": "Lang EN",
+              "fill": "$color-text-muted",
+              "content": "EN",
+              "fontFamily": "$font-sans",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "ZY1Sp",
+      "x": 1852,
+      "y": 0,
+      "name": "Footer",
+      "reusable": true,
+      "width": 1280,
+      "height": 56,
+      "fill": "$color-bg",
+      "padding": [
+        0,
+        48
+      ],
+      "justifyContent": "space_between",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "iZay5",
+          "name": "Copyright",
+          "fill": "$color-text-muted",
+          "content": "© 2025 Raúl Salazar",
+          "fontFamily": "$font-sans",
+          "fontSize": 13,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "R4ngl",
+          "name": "Footer Links",
+          "gap": 24,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "Q7wHG",
+              "name": "Footer Email",
+              "fill": "$color-text-muted",
+              "content": "raulast.dev@gmail.com",
+              "fontFamily": "$font-sans",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "i25PPu",
+              "name": "Footer LinkedIn",
+              "fill": "$color-accent-red",
+              "content": "LinkedIn ↗",
+              "fontFamily": "$font-sans",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "XYMw4",
+      "x": 3172,
+      "y": 0,
+      "name": "HeroSection",
+      "reusable": true,
+      "width": 1280,
+      "fill": "$color-bg",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": [
+        96,
+        120
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "YlMoS",
+          "name": "Hero Greeting",
+          "fill": "$color-accent-red",
+          "content": "HI, I'M",
+          "textAlign": "center",
+          "fontFamily": "$font-sans",
+          "fontSize": 16,
+          "fontWeight": "normal",
+          "letterSpacing": 3
+        },
+        {
+          "type": "text",
+          "id": "WWgrx",
+          "name": "Hero Name",
+          "fill": "$color-text",
+          "textGrowth": "fixed-width",
+          "width": 1040,
+          "content": "Raúl Salazar",
+          "textAlign": "center",
+          "fontFamily": "$font-sans",
+          "fontSize": 64,
+          "fontWeight": "800"
+        },
+        {
+          "type": "text",
+          "id": "F6w5I",
+          "name": "Hero Title",
+          "fill": "$color-text-muted",
+          "textGrowth": "fixed-width",
+          "width": 1040,
+          "content": "Senior Full Stack Engineer & Tech Lead",
+          "textAlign": "center",
+          "fontFamily": "$font-sans",
+          "fontSize": 22,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "kBgf3",
+          "name": "Hero Subtitle",
+          "fill": "$color-text-muted",
+          "textGrowth": "fixed-width",
+          "width": 760,
+          "content": "I build SaaS platforms that scale — from conversational AI to multi-tenant analytics.\n6+ years turning complex problems into clean, working software.",
+          "lineHeight": 0.6,
+          "textAlign": "center",
+          "fontFamily": "$font-sans",
+          "fontSize": 16,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "ynHa0",
+          "name": "CTA Row",
+          "gap": 16,
+          "children": [
+            {
+              "type": "frame",
+              "id": "sKywG",
+              "name": "CTA Primary",
+              "fill": "$color-accent-red",
+              "cornerRadius": "$radius-sm",
+              "padding": [
+                14,
+                32
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "zTLrF",
+                  "name": "CTA Primary Label",
+                  "fill": "#ffffff",
+                  "content": "View My Work",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "G5eUC",
+              "name": "CTA Secondary",
+              "fill": "$color-surface",
+              "cornerRadius": "$radius-sm",
+              "stroke": "$color-border",
+              "strokeWidth": 1,
+              "padding": [
+                14,
+                32
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "OxAkW",
+                  "name": "CTA Secondary Label",
+                  "fill": "$color-text",
+                  "content": "Let's Talk",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "LRxdH",
+      "x": 4532,
+      "y": 0,
+      "name": "Portfolio /en — Desktop",
+      "clip": true,
+      "width": 1440,
+      "fill": "$color-bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "B5xeZ",
+          "type": "ref",
+          "ref": "msud1",
+          "name": "Nav Instance",
+          "width": "fill_container"
+        },
+        {
+          "id": "CY8me",
+          "type": "ref",
+          "ref": "XYMw4",
+          "name": "Hero Instance",
+          "width": "fill_container"
+        },
+        {
+          "type": "frame",
+          "id": "bEcPx",
+          "name": "About Section",
+          "width": "fill_container",
+          "fill": "$color-bg",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            80,
+            120
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "LvxFu",
+              "name": "About Heading",
+              "fill": "$color-text",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "About Me",
+              "textAlign": "center",
+              "fontFamily": "$font-sans",
+              "fontSize": 36,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "eqZbc",
+              "name": "About Body",
+              "width": "fill_container",
+              "gap": 64,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "F1d7A",
+                  "name": "About Bio",
+                  "fill": "$color-text-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Senior Full Stack Engineer & Tech Lead based in Barranquilla, Colombia. I specialize in SaaS architecture, LLM integrations, and high-availability systems. My background spans embedded IoT, backend systems, DevOps, and applied AI.",
+                  "lineHeight": 0.6,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "zuBE4",
+                  "name": "Highlights",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "VYEpp",
+                      "name": "6+ Years Experience",
+                      "width": 280,
+                      "fill": "$color-surface",
+                      "cornerRadius": "$radius-md",
+                      "gap": 16,
+                      "padding": [
+                        16,
+                        20
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "heYpn",
+                          "name": "Icon",
+                          "fill": "$color-text",
+                          "content": "🏆",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 24,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "YNER6",
+                          "name": "Card Text",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "eF76k",
+                              "name": "Highlight Label",
+                              "fill": "$color-text",
+                              "content": "6+ Years Experience",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "bRswe",
+                              "name": "Highlight Detail",
+                              "fill": "$color-text-muted",
+                              "content": "Full stack, DevOps & AI",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "DZGjm",
+                      "name": "Cum Laude Engineer",
+                      "width": 280,
+                      "fill": "$color-surface",
+                      "cornerRadius": "$radius-md",
+                      "gap": 16,
+                      "padding": [
+                        16,
+                        20
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "SBQA7",
+                          "name": "Icon",
+                          "fill": "$color-text",
+                          "content": "🎓",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 24,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "FZ8w7",
+                          "name": "Card Text",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "hBOZF",
+                              "name": "Highlight Label",
+                              "fill": "$color-text",
+                              "content": "Cum Laude Engineer",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "xtEsC",
+                              "name": "Highlight Detail",
+                              "fill": "$color-text-muted",
+                              "content": "Universidad del Norte, 2020",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "a2iII",
+                      "name": "AI-Native Builder",
+                      "width": 280,
+                      "fill": "$color-surface",
+                      "cornerRadius": "$radius-md",
+                      "gap": 16,
+                      "padding": [
+                        16,
+                        20
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "MKySy",
+                          "name": "Icon",
+                          "fill": "$color-text",
+                          "content": "🤖",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 24,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "oGeLq",
+                          "name": "Card Text",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "hHH0c",
+                              "name": "Highlight Label",
+                              "fill": "$color-text",
+                              "content": "AI-Native Builder",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "rmwL6",
+                              "name": "Highlight Detail",
+                              "fill": "$color-text-muted",
+                              "content": "LLMs, SaaS & IoT systems",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Xm5rx",
+          "name": "Stack Section",
+          "width": "fill_container",
+          "fill": "$color-surface",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": [
+            80,
+            120
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "W3Ln1",
+              "name": "Stack Heading",
+              "fill": "$color-text",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Tech Stack",
+              "textAlign": "center",
+              "fontFamily": "$font-sans",
+              "fontSize": 36,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "mSvVE",
+              "name": "Stack Grid",
+              "width": "fill_container",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "XGSJN",
+                  "name": "Col A",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "TBVBK",
+                      "name": "Frontend",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "uIGLy",
+                          "name": "Frontend Label",
+                          "fill": "$color-accent-red",
+                          "content": "FRONTEND",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 13,
+                          "fontWeight": "600",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "frame",
+                          "id": "gYCC3",
+                          "name": "Frontend Tags",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "id": "Q8ItEz",
+                              "type": "ref",
+                              "ref": "VennI",
+                              "name": "React.js",
+                              "descendants": {
+                                "ut0Fo": {
+                                  "content": "React.js"
+                                }
+                              }
+                            },
+                            {
+                              "id": "lpzDh",
+                              "type": "ref",
+                              "ref": "VennI",
+                              "name": "Vue.js",
+                              "descendants": {
+                                "ut0Fo": {
+                                  "content": "Vue.js"
+                                }
+                              }
+                            },
+                            {
+                              "id": "Rx9qZ",
+                              "type": "ref",
+                              "ref": "VennI",
+                              "name": "TypeScript",
+                              "descendants": {
+                                "ut0Fo": {
+                                  "content": "TypeScript"
+                                }
+                              }
+                            },
+                            {
+                              "id": "ZcYyV",
+                              "type": "ref",
+                              "ref": "VennI",
+                              "name": "Tailwind CSS",
+                              "descendants": {
+                                "ut0Fo": {
+                                  "content": "Tailwind CSS"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "NAe6q",
+                      "name": "DevOps",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "EVfkz",
+                          "name": "DevOps Label",
+                          "fill": "$color-accent-red",
+                          "content": "DEVOPS",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 13,
+                          "fontWeight": "600",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "frame",
+                          "id": "kVhnt",
+                          "name": "DevOps Tags",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "id": "xoMEg",
+                              "type": "ref",
+                              "ref": "VennI",
+                              "name": "Docker",
+                              "descendants": {
+                                "ut0Fo": {
+                                  "content": "Docker"
+                                }
+                              }
+                            },
+                            {
+                              "id": "F5Cm9",
+                              "type": "ref",
+                              "ref": "VennI",
+                              "name": "Ubuntu VPS",
+                              "descendants": {
+                                "ut0Fo": {
+                                  "content": "Ubuntu VPS"
+                                }
+                              }
+                            },
+                            {
+                              "id": "xQWiQ",
+                              "type": "ref",
+                              "ref": "VennI",
+                              "name": "CI/CD",
+                              "descendants": {
+                                "ut0Fo": {
+                                  "content": "CI/CD"
+                                }
+                              }
+                            },
+                            {
+                              "id": "PaoJQ",
+                              "type": "ref",
+                              "ref": "VennI",
+                              "name": "n8n",
+                              "descendants": {
+                                "ut0Fo": {
+                                  "content": "n8n"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "w1qNj",
+                  "name": "Col B",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "d8Ip3",
+                      "name": "Backend",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "HELjS",
+                          "name": "Backend Label",
+                          "fill": "$color-accent-red",
+                          "content": "BACKEND",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 13,
+                          "fontWeight": "600",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "frame",
+                          "id": "vENRx",
+                          "name": "Backend Tags",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "id": "UZMjU",
+                              "type": "ref",
+                              "ref": "VennI",
+                              "name": "Node.js",
+                              "descendants": {
+                                "ut0Fo": {
+                                  "content": "Node.js"
+                                }
+                              }
+                            },
+                            {
+                              "id": "c1il5",
+                              "type": "ref",
+                              "ref": "VennI",
+                              "name": "Laravel (PHP)",
+                              "descendants": {
+                                "ut0Fo": {
+                                  "content": "Laravel (PHP)"
+                                }
+                              }
+                            },
+                            {
+                              "id": "J1VCAD",
+                              "type": "ref",
+                              "ref": "VennI",
+                              "name": "REST APIs",
+                              "descendants": {
+                                "ut0Fo": {
+                                  "content": "REST APIs"
+                                }
+                              }
+                            },
+                            {
+                              "id": "Xc4Te",
+                              "type": "ref",
+                              "ref": "VennI",
+                              "name": "WebSockets",
+                              "descendants": {
+                                "ut0Fo": {
+                                  "content": "WebSockets"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "a9G5S9",
+                      "name": "Telecom / IoT",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "iGrxX",
+                          "name": "Telecom / IoT Label",
+                          "fill": "$color-accent-red",
+                          "content": "TELECOM / IOT",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 13,
+                          "fontWeight": "600",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "frame",
+                          "id": "SR12j",
+                          "name": "Telecom / IoT Tags",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "id": "DUs3L",
+                              "type": "ref",
+                              "ref": "VennI",
+                              "name": "Asterisk PBX",
+                              "descendants": {
+                                "ut0Fo": {
+                                  "content": "Asterisk PBX"
+                                }
+                              }
+                            },
+                            {
+                              "id": "OOKMU",
+                              "type": "ref",
+                              "ref": "VennI",
+                              "name": "WhatsApp API",
+                              "descendants": {
+                                "ut0Fo": {
+                                  "content": "WhatsApp API"
+                                }
+                              }
+                            },
+                            {
+                              "id": "UD2z2",
+                              "type": "ref",
+                              "ref": "VennI",
+                              "name": "ESP32-C3",
+                              "descendants": {
+                                "ut0Fo": {
+                                  "content": "ESP32-C3"
+                                }
+                              }
+                            },
+                            {
+                              "id": "zfqzK",
+                              "type": "ref",
+                              "ref": "VennI",
+                              "name": "MQTT",
+                              "descendants": {
+                                "ut0Fo": {
+                                  "content": "MQTT"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "NN0k3",
+                  "name": "Col C",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "FkAyV",
+                      "name": "AI / LLM",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "khfXe",
+                          "name": "AI / LLM Label",
+                          "fill": "$color-accent-red",
+                          "content": "AI / LLM",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 13,
+                          "fontWeight": "600",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "frame",
+                          "id": "eqOl5",
+                          "name": "AI / LLM Tags",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "id": "kuDUw",
+                              "type": "ref",
+                              "ref": "VennI",
+                              "name": "AWS Bedrock",
+                              "descendants": {
+                                "ut0Fo": {
+                                  "content": "AWS Bedrock"
+                                }
+                              }
+                            },
+                            {
+                              "id": "m3YThW",
+                              "type": "ref",
+                              "ref": "VennI",
+                              "name": "Anthropic Claude",
+                              "descendants": {
+                                "ut0Fo": {
+                                  "content": "Anthropic Claude"
+                                }
+                              }
+                            },
+                            {
+                              "id": "JRf1t",
+                              "type": "ref",
+                              "ref": "VennI",
+                              "name": "Prompt Engineering",
+                              "descendants": {
+                                "ut0Fo": {
+                                  "content": "Prompt Engineering"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Pv9vq",
+                      "name": "Databases",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "KpJGV",
+                          "name": "Databases Label",
+                          "fill": "$color-accent-red",
+                          "content": "DATABASES",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 13,
+                          "fontWeight": "600",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "frame",
+                          "id": "LV3KH",
+                          "name": "Databases Tags",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "id": "vr9ad",
+                              "type": "ref",
+                              "ref": "VennI",
+                              "name": "MySQL",
+                              "descendants": {
+                                "ut0Fo": {
+                                  "content": "MySQL"
+                                }
+                              }
+                            },
+                            {
+                              "id": "JOfit",
+                              "type": "ref",
+                              "ref": "VennI",
+                              "name": "NoSQL",
+                              "descendants": {
+                                "ut0Fo": {
+                                  "content": "NoSQL"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "vcqa1",
+          "name": "Projects Section",
+          "width": "fill_container",
+          "fill": "$color-bg",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            80,
+            120
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "Uctee",
+              "name": "Projects Heading",
+              "fill": "$color-text",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Projects",
+              "textAlign": "center",
+              "fontFamily": "$font-sans",
+              "fontSize": 36,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "MVawP",
+              "name": "Projects Row",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "jGpow",
+                  "name": "Conversational SaaS Engine",
+                  "width": "fill_container",
+                  "fill": "$color-surface",
+                  "cornerRadius": "$radius-md",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "y0G5FV",
+                      "name": "Title",
+                      "fill": "$color-text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Conversational SaaS Engine",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "duF3B",
+                      "name": "Desc",
+                      "fill": "$color-text-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Led end-to-end development of a visual SaaS engine for omnichannel conversational flow automation.",
+                      "lineHeight": 0.4,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "jDepB",
+                      "name": "Metric",
+                      "fill": "$color-tag-bg",
+                      "cornerRadius": "$radius-sm",
+                      "padding": [
+                        6,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "nn3JT",
+                          "name": "Metric Text",
+                          "fill": "$color-accent-red",
+                          "content": "$2M+ automated · 200+ users · 40% ops reduction",
+                          "fontFamily": "$font-mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "m78XSk",
+                  "name": "Multi-Tenant Analytics Platform",
+                  "width": "fill_container",
+                  "fill": "$color-surface",
+                  "cornerRadius": "$radius-md",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "V7C0cR",
+                      "name": "Title",
+                      "fill": "$color-text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Multi-Tenant Analytics Platform",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "PmpCb",
+                      "name": "Desc",
+                      "fill": "$color-text-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Designed core multi-tenant architecture with real-time enterprise dashboards and zero data cross-contamination.",
+                      "lineHeight": 0.4,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "i4R6E",
+                      "name": "Metric",
+                      "fill": "$color-tag-bg",
+                      "cornerRadius": "$radius-sm",
+                      "padding": [
+                        6,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Ny9wu",
+                          "name": "Metric Text",
+                          "fill": "$color-accent-red",
+                          "content": "15+ companies · 50K+ msgs/month · 99.7% uptime",
+                          "fontFamily": "$font-mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "igPvk",
+                  "name": "IoT Cold Chain Monitoring",
+                  "width": "fill_container",
+                  "fill": "$color-surface",
+                  "cornerRadius": "$radius-md",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "JsLIP",
+                      "name": "Title",
+                      "fill": "$color-text",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "IoT Cold Chain Monitoring",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "jj8YA",
+                      "name": "Desc",
+                      "fill": "$color-text-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Designed technical proposal for ESP32-C3 SoC system for remote cold chain monitoring in pharmaceutical logistics.",
+                      "lineHeight": 0.4,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "mRIU6",
+                      "name": "Metric",
+                      "fill": "$color-tag-bg",
+                      "cornerRadius": "$radius-sm",
+                      "padding": [
+                        6,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "FvjwR",
+                          "name": "Metric Text",
+                          "fill": "$color-accent-red",
+                          "content": "0 IT losses · ESP32-C3 · Pharma grade",
+                          "fontFamily": "$font-mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "W7ErPH",
+          "name": "Contact Section",
+          "width": "fill_container",
+          "fill": "$color-surface",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            80,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "FxV57",
+              "name": "Contact Heading",
+              "fill": "$color-text",
+              "textGrowth": "fixed-width",
+              "width": 800,
+              "content": "Let's Work Together",
+              "textAlign": "center",
+              "fontFamily": "$font-sans",
+              "fontSize": 36,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "DP6po",
+              "name": "Contact Sub",
+              "fill": "$color-text-muted",
+              "textGrowth": "fixed-width",
+              "width": 640,
+              "content": "Open to full-time roles and freelance projects. Whether you're building a SaaS product, integrating AI, or need a tech lead — I'd love to hear about it.",
+              "lineHeight": 0.5,
+              "textAlign": "center",
+              "fontFamily": "$font-sans",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "CM22a",
+              "name": "Contact CTAs",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "vtYzB",
+                  "name": "Email CTA",
+                  "fill": "$color-accent-red",
+                  "cornerRadius": "$radius-sm",
+                  "padding": [
+                    14,
+                    32
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "x5cPxN",
+                      "name": "Email Label",
+                      "fill": "#ffffff",
+                      "content": "Send me an email",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "IGjPi",
+                  "name": "LinkedIn CTA",
+                  "fill": "$color-surface-2",
+                  "cornerRadius": "$radius-sm",
+                  "padding": [
+                    14,
+                    32
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "WoMrB",
+                      "name": "LinkedIn Label",
+                      "fill": "$color-text",
+                      "content": "Connect on LinkedIn",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u2y46",
+          "type": "ref",
+          "ref": "ZY1Sp",
+          "name": "Footer Instance",
+          "width": "fill_container"
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "color-bg": {
+      "type": "color",
+      "value": "#1a1a2e"
+    },
+    "color-surface": {
+      "type": "color",
+      "value": "#16213e"
+    },
+    "color-surface-2": {
+      "type": "color",
+      "value": "#0f3460"
+    },
+    "color-accent-red": {
+      "type": "color",
+      "value": "#e94560"
+    },
+    "color-text": {
+      "type": "color",
+      "value": "#eaeaea"
+    },
+    "color-text-muted": {
+      "type": "color",
+      "value": "#a0a0b8"
+    },
+    "color-border": {
+      "type": "color",
+      "value": "#2d3561"
+    },
+    "color-tag-bg": {
+      "type": "color",
+      "value": "#1e2a4a"
+    },
+    "font-sans": {
+      "type": "string",
+      "value": "Inter"
+    },
+    "font-mono": {
+      "type": "string",
+      "value": "JetBrains Mono"
+    },
+    "radius-sm": {
+      "type": "number",
+      "value": 6
+    },
+    "radius-md": {
+      "type": "number",
+      "value": 12
+    },
+    "radius-lg": {
+      "type": "number",
+      "value": 20
+    },
+    "gap-xs": {
+      "type": "number",
+      "value": 8
+    },
+    "gap-sm": {
+      "type": "number",
+      "value": 16
+    },
+    "gap-md": {
+      "type": "number",
+      "value": 24
+    },
+    "gap-lg": {
+      "type": "number",
+      "value": 48
+    },
+    "gap-xl": {
+      "type": "number",
+      "value": 80
+    }
+  },
+  "fileToken": "90f949ad-472d-4826-80cc-d6a0842264e4"
+}
